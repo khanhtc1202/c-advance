@@ -61,7 +61,7 @@ with
 - `-L.` mean the dir which have static compiled libs (in this case it `./`)
 - `-l_mylib` mean the needed lib's name is `lib_mylib.a` as the above convention.
 
-Note: after the command create `.o` file be completed, we don't need header files any more, all compiled and compressed into `.o` file. So in this opinion, the header file just like `interface` in oop language, we declare what we need, implementation will be written in another source file and compiled to libs, we linking it to main `.o` file and build executable file later.
+Note: after the command create `.o` file be completed, we don't need header files any more, all are compiled and compressed into `.o` file. So in this opinion, the header file just like `interface` in oop language, we declare what we need, implementation will be written in another source file and compiled to libs, we linking it to main `.o` file and build executable file later.
 
 So if we are going to use an external lib, we just download header files, include it into source code. In compile time, we download binary file of libs, and give it to `gcc` to link libs in linking step.
 
