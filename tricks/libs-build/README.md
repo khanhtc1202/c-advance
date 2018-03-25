@@ -65,7 +65,7 @@ Note: after the command create `.o` file completed, we don't need header files a
 
 So if we are going to use an external lib, we just download header files, include it into source code. In compile time, we download binary file of libs, and give it to `gcc` to link libs in linking step.
 
-The above is the way we make an compiled executable file with static libs, the executable itself can run, no need any other libs link to it in run time. We also have the way to make this with dynamic libs (mean that in runtime, the exec file call some external libs to get implementation of needed funtions). Both of strategies have advantages and disadvantages, so just think about it before compile your program.
+The above is the way we make an compiled executable file with static libs, the executable itself can run, no need any other libs link to it in run time. We also have the way to make this with dynamic libs (mean that in runtime, the exec file call some external libs to get implementation of needed funtions). Both of strategies have advantages and disadvantages, so just think about it before compile your program.
 
 Reference to:
 - https://kipalog.com/posts/Thu-thuc-hien-4-Stage-khi-Compile-C-bang-GCC
